@@ -1,6 +1,20 @@
+.primary{
+ color: #fd6e0a;
+}
+
+
+.bannar{
+ background: #fff8f3;
+ /* background-image:url('images/developer.png'); */
+}
+
+
 nav{
  display: flex;
  justify-content: space-between;
+ align-items: center;
+ width: 80%;
+ margin: auto;
 }
 
 .menu{
@@ -10,4 +24,29 @@ nav{
 .menu>li{
  margin-left: 50px;
 
+}
+
+.subBannar{
+ 
+ display: flex;
+ /* justify-content: space-between; */
+ gap: 140px;
+ align-items: center;
+}
+
+.subTitle{
+ font-size: 30px;
+ font-weight: 100;
+}
+
+.title{
+ font-size: 40px;
+ font-weight: 700;
+ margin-bottom: 0px;
+}
+
+.photo{
+ background-image: url('images/header_bg.png');
+ background-repeat: repeat-x;
+ background-position: bottom center;
 }
